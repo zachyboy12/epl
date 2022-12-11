@@ -1,0 +1,6 @@
+! use <path-or-module-in-libraries-directory>
+myvar is 1
+write myvar
+write typename myvar
+name is read with prompt as 'Name: '
+write ;'Hello, {name}!'
